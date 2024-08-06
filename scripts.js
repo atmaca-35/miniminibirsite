@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Kelime sayısını gösterme
         const wordCount = Object.keys(dictionaryData).length;
-        wordCountElement.innerHTML = `There are currently <span class="highlight">${wordCount}</span> words available.`;
+        wordCountElement.innerHTML = `Türk dilinin <span class="highlight">${wordCount}</span> maddelik arkeolojisi`;
     } catch (error) {
         console.error('Sözlük yüklenirken bir hata oluştu:', error);
         hasError = true; // Hata oluştuğunu işaretle
